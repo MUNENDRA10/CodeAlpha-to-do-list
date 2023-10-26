@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* body{
+    background-color: azure;
+} */
+
+.todo h2{
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    line-height: 30px;
+    border-bottom: 1px solid #D288FF;
+}
+
+.task label{
+    margin-left: 1px;
+    margin-top: 2rem;
+    font-size: 1.5em;
+    text-align: start;
+    color: #013276;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.task{
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}
+
+.task input{
+    color: rgb(82, 3, 65);
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 0px 10px;
+    height: 2.2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: .4rem;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 1px 1px rgb(248, 120, 224) inset;
+}
+
+input::placeholder{
+    font-size: 12px;
+    color: #aaa7ac;
+}
+
+textarea::placeholder{
+    color: #aaa7ac;
+    font-size: 13px;
+}
+
+.task textarea{
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 5rem;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: .4rem;
+    box-shadow: 0px 0px 1px 1px rgb(248, 120, 224) inset;
+}
+
+#addtask{
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    background-color: #D288FF;
+    color: #ffffff;
+    border: 1px double rgb(0, 0, 236);
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0px 0px 1px 1px #D288FF inset;
+}
+
+#addtask:hover{
+    color: #04285A;
+    cursor: pointer;
+    background-color: #feebf5;
+    border: #D288FF;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 300px;
+    min-width: 20px;
+    height: 1%;
+    border: none;
+    box-shadow: 0px 0px 1px 1px rgb(248, 120, 224) inset;
+}
+
+h3{
+    color: rgb(82, 3, 65);
+    text-align: start;
+    border-bottom: 1px solid blue;
+}
+p{
+    text-indent: 20%;
+    margin-top: 1.5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+    color:#0047aa;
+}
+
+#del{
+    position: absolute;
+    color: red;
+    right: 10px;
+    bottom: 8px;
+}
+
+#del:hover{
+    cursor: pointer;
+    
+}
